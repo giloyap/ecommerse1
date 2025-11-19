@@ -1,0 +1,192 @@
+/* ---------- Global Styles ---------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8fafc;
+  color: #333;
+  padding-top: 80px;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #007bff !important;
+}
+
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* ---------- Product Cards ---------- */
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+  border-radius: 16px 16px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  border-radius: 12px;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #0062e6, #00a8ff);
+}
+
+/* ---------- Cart List ---------- */
+.list-group-item {
+  border-radius: 12px !important;
+  margin-bottom: 5px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* ---------- Map ---------- */
+iframe {
+  border-radius: 12px;
+}
+
+/* ---------- Language Selector ---------- */
+#lang-select {
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  color: #555;
+}
+
+#lang-select:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* ---------- Responsive Tweaks ---------- */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
+/* ---------- ABOUT US SECTION ---------- */
+#about-section {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  border-radius: 20px;
+  padding: 60px 40px;
+  margin-top: 60px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+#about-section h2 {
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+#about-section p {
+  color: #444;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* ---------- CONTACT SECTION ---------- */
+#contact-section {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 60px 40px;
+  margin-top: 60px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+#contact-section h2 {
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+#contact-section h5 {
+  font-weight: 600;
+  color: #333;
+}
+
+#contact-section p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#contact-section iframe {
+  border-radius: 16px;
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+
+/* ---------- CART SECTION ---------- */
+#cart-section {
+  background: #f9fbff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 60px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.07);
+}
+
+#cart-section h2 {
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 25px;
+}
+
+#cart-section .list-group-item {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px !important;
+  transition: 0.2s ease;
+}
+
+#cart-section .list-group-item:hover {
+  background: #f1f9ff;
+}
+
+#cart-section button {
+  border-radius: 8px;
+}
+
+/* ---------- ANIMATIONS ---------- */
+.fade-in {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
